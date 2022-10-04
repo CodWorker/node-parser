@@ -1,0 +1,38 @@
+.tags-controll{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    align-items: center;
+}
+#tags{
+    min-height: 400px;
+    flex-grow: 1;
+}
+
+.tags_button{
+    margin-top: 50px;
+    padding: 10px;
+    border:1px #1303ff solid;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #0d6efd;
+}
+
+#tags-result{
+    min-height: 400px;
+    flex-grow: 1;
+}
+
+.area-wrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.label{
+    font-style: italic;
+}
